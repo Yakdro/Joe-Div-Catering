@@ -760,7 +760,10 @@ section#training ul{
 
 /* mobile Responsiveness */
 @media screen and (max-width: 768px) {
-  
+
+     :root {
+    --scroll-offset: 180px;
+  }
   .header-wrapper {
     flex-direction: column;
     align-items: center;
@@ -857,9 +860,7 @@ section#training ul{
 }
 
 @media (max-width: 480px) {
-  :root {
-    --scroll-offset: 200px;
-  }
+ 
   header {
     padding: 10px 0;
   }
