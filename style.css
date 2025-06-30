@@ -847,6 +847,12 @@ section#training ul{
     width: 100%;
     text-align: center;
   }
+
+    #menu.fade-in {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
   
 }
 
