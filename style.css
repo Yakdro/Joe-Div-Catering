@@ -806,6 +806,12 @@ section#training ul{
     padding: 10px 20px;
     font-size: 1rem;
   }
+
+    #menu.fade-in {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
 }
 
 /* Responsive text sizing */
@@ -846,12 +852,6 @@ section#training ul{
   .whatsapp-btn {
     width: 100%;
     text-align: center;
-  }
-
-    #menu.fade-in {
-    opacity: 1 !important;
-    transform: none !important;
-    transition: none !important;
   }
   
 }
