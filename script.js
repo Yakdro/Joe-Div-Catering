@@ -182,13 +182,13 @@ li.innerHTML = `
 
   message += `\n\nTotal is ₦${total.toLocaleString()}`;
   
-  whatsappLink.href = `https://wa.me/2348036375055?text=${encodeURIComponent(message)}`;
+  whatsappLink.href = `https://wa.me/2347065108485?text=${encodeURIComponent(message)}`;
 }
 
 
 function orderNow(itemName, itemPrice) {
   const message = `Hello, I would like to order: ${itemName} (₦${itemPrice.toLocaleString()}) from your menu`;
-  window.open(`https://wa.me/2348036375055?text=${encodeURIComponent(message)}`, "_blank");
+  window.open(`https://wa.me/2347065108485?text=${encodeURIComponent(message)}`, "_blank");
 }
 
   
